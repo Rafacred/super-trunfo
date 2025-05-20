@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Super Trunfo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Super Trunfo</h1>
+
+  <div id="placar">Você: 0 | Máquina: 0</div>
+
+  <div id="jogo">
+    <div id="carta-jogador"></div>
+    <div id="opcoes"></div>
+    <button onclick="jogar()" id="btnJogar" disabled>Jogar</button>
+    <div id="resultado"></div>
+    <div id="carta-maquina"></div>
+  </div>
+
+  <button onclick="sortearCarta()">Sortear Cartas</button>
+
+  <div id="ranking">
+    <h3>Ranking</h3>
+    <ul id="lista-ranking"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
